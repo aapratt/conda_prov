@@ -9,5 +9,5 @@ set -eo pipefail
 . /venv/main/bin/activate
 
 # Download some useful files
-wget -P "${WORKSPACE}/" https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-~/Miniconda3-latest-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+~/Miniconda3-latest-Linux-x86_64.sh -b -p /workspace/anaconda3
