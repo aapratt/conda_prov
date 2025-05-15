@@ -12,4 +12,3 @@ wget -P ./ https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sudo bash ./Miniconda3-latest-Linux-x86_64.sh -b -p ./anaconda3
 source ./anaconda3/bin/activate
 conda init --all
-conda config --add envs_dirs /Users/nolan/newpath
