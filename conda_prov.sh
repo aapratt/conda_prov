@@ -10,4 +10,4 @@ set -eo pipefail
 
 # Download some useful files
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh -b -p /workspace/anaconda3
+sudo bash ./Miniconda3-latest-Linux-x86_64.sh -b -p /workspace/anaconda3
